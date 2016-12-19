@@ -6,13 +6,8 @@ Platform: Oxid eShop CE
 
 Version: 4.8.x
 
-###Installation:
+###Installation
 
-Ordner anlegen shoproot/modules/rwu
-
-ZIP entpacken
-
-Ordner umbenennen nach blockgroups
 
 SQL auf Shopdatenbank ausfühen:
 
@@ -24,3 +19,13 @@ CREATE TABLE oxobject_block2group like oxobject2group;
 Modul aktivieren
 
 Views aktualisieren
+
+----
+#mailextender
+
+Erweiterung der Mailklasse, um in der ordershipped.tpl zusätzliche Informationen ausgeben zu können
+
+###Installation
+
+
+Modul aktivieren
